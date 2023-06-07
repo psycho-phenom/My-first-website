@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: grey;
+    font-family: sans-serif;
+}
+.firstpage{
+ background-image: url(parallax1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 60vh;
+ width: 100%;
+}
+.nav{
+ display: flex;
+ padding-top: 10px;
+ height: 15px;
+ align-items: center;
+}
+.nav h4{
+    padding-top: 12px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 100;
+    
+}
+.nav h4:hover{
+    background-color: rgb(231, 218, 218);
+    padding: 10px 8px   ;
+}
+.search:hover{
+    background-color: red;
+    padding: 20px 8px;
+}
+.search{
+    margin-left: 120vh;
+    padding-top: 10px;
+}
+.about{
+    text-decoration: none;
+}
+.writ{
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.writ h2{
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 13px 1rem;
+    letter-spacing: 12px;
+    font-weight: 100;
+    font-style: 10px;
+}
+
+.secondpage{
+    margin-top: 4rem;
+    width: 100%;
+}
+.secondpg1{
+    width: 60%(-20px);
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secondpg1 .bio{
+    padding: 0 15%;
+}
+
+.secondpage .secondpg2{
+    margin-top: 5rem;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15%;
+
+}
+.secondpage .secondpg2 h4{
+    margin: 0 0 2rem 0;
+    text-align: center;
+}
+
+.secondpage .secondpg2 p{
+    margin-left: 4rem;
+    width: 87%;
+}
+
+.heading{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.progress-bar{
+    margin-top: 2rem;
+    padding: 0 15%;
+}
+.progress{
+    width: 100%;
+    height: 38px;
+    background-color: aliceblue;
+    margin-bottom: 2rem;
+}
+.progress-bar h4{
+letter-spacing: 10px;
+font-weight: 100;
+}
+
+.progress p{
+    padding-top: 0.5rem;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    width: 90%;
+    height: 30px;
+}
+
+.webdesign{
+    width: 100%;
+    height: 38px;
+    background-color: aliceblue;
+    margin-bottom: 2rem;
+}
+.webdesign p{
+    padding-top: 0.5rem;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    width: 85%;
+    height: 30px;
+}
+
+.photoshop{
+    width: 100%;
+    height: 38px;
+    background-color: aliceblue;
+    margin-bottom: 3rem;
+}
+.photoshop p{
+    padding-top: 0.5rem;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    width: 75%;
+    height: 30px;
+}
+
+.navbar{
+    display: flex;
+    background-color: gray;
+}
+.navbar p{
+    color: white;
+}
+.navbar-1{
+    text-align: center;
+    padding: 1rem;
+    margin-left: 30vh;
+}
+
+.navbar-2{
+    text-align: center;
+    padding: 1rem;
+    margin-left: 30vh;
+}
+
+.navbar-3{
+    text-align: center;
+    padding: 1rem;
+    margin-left: 30vh;
+}
+
+.navbar-4{
+    text-align: center;
+    padding: 1rem;
+    margin-left: 30vh;
+}
+
+
+.thirdpage{
+    text-align: center;
+    background-image: url(parallax2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+   }
+   .thirdpage p{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 10px;
+    padding-top: 9rem;
+   }
+   .image{
+    text-align: center;
+    margin-top: 90px;
+   }
+.alimage-1{
+    display: flex;
+}
+.image-1{
+    margin-left: 23vh;
+}
+.image-2{
+    margin-left: 1rem;
+}
+
+.image-3{
+    margin-left: 1rem;
+}
+
+.image-4{
+    margin-left: 1rem;
+}
+
+.alimage-2{
+    display: flex;
+}
+.image-5{
+    margin-left: 23vh;
+}
+.image-6{
+    margin-left: 1rem;
+}
+
+.image-7{
+    margin-left: 1rem;
+}
+
+.image-8{
+    margin-left: 1rem;
+}
+.button button{
+   margin-top: 10vh;
+   margin-bottom: 10vh;
+   margin-left: 91vh;
+   padding: 15px 30px;
+   border-style: none;
+}
+
+
+.fifthpage{
+    text-align: center;
+    background-image: url(parallax3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+   }
+   .fifthpage p{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 10px;
+    padding-top: 9rem;
+   }
+.work{
+    margin-top: 10vh;
+    text-align: center;
+}
+.work h2{
+    font-weight: 100;
+}
+.work p{
+    font-style: italic;
+}
+.sixthpage{
+    display: flex;
+    margin-top: 8vh;
+    margin-left: 40vh;
+}
+.info{
+    margin-left: 7vh;
+    padding: 20px;
+}
+.form{
+  margin-left: 90vh;
+}
+.form input{
+    padding: 15px 20px;
+    /* text-align: left; */
+}
+.msg{
+    margin-left: 90vh;
+}
+.msg input{
+    margin-top: 1rem;
+    padding: 15px 30px;
+    width: 90.2%;
+}
+.snd{
+    margin-left: 163vh;
+  
+}
+.snd button{
+    margin-top: 1rem;
+    padding: 10px 60px;
+    background-color: black;
+    cursor: pointer;
+    margin-bottom: 170px;
+}
+.seventhpage{
+    padding: 8rem;
+    background-color:  rgb(71, 70, 70);
+}
+.seventhpage button{
+    margin-left: 70vh;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+.seventhpage p{
+    margin-left: 70vh;
+    margin-top: 10vh;
+}
+.seventhpage:hover{
+    background-color: black;
+}
+.gray:hover{
+ background-color: rgb(250, 238, 238);
+}
+.green:hover{
+    color: rgb(110, 160, 110);
+}
