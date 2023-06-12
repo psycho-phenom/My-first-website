@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="w3schools-logo-icon.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>W3.CSS Templates</title>
 </head>
 <body>
-  <section class="1">
+  <section id="beginning">
     <div class="firstpage">
       <div class="nav">
-        <h4><a class="about" href="">HOME</a></h4>
-        <h4> <i class="fa fa-user"></i> <a class="about" href="">ABOUT</a></h4>
-        <h4><i class="fa fa-th"></i> <a class="about" href="">PORTFOLIO</a></h4>
-        <h4><i class="fa fa-envelope"></i><a class="about" href="">CONTACT</a></h4>
-        <div class="search">
+        <h4><a class="about" href="#link1">HOME</a></h4>
+        <h4> <i class="fa fa-user"></i> <a class="about" href="#link2">ABOUT</a></h4>
+        <h4><i class="fa fa-th"></i> <a class="about" href="#picture">PORTFOLIO</a></h4>
+        <h4><i class="fa fa-envelope"></i><a class="about" href="#work">CONTACT</a></h4>
+         <div class="search">
          <a class="about" href=""> <i class="fa fa-search"></i></a>
-        </div>
+         </div>
        
       </div>
+      <section id="link1">
       <div class="writ">
         <h2>MY  WEBSITE  LOGO</h2>
       </div> 
     </div>
   </section>
-  <section class="2">
+  <section id="link2">
     <div class="secondpage">
       <div class="secondpg1">
         <div class="bac">
@@ -43,13 +45,12 @@
           <h4>My Name</h4>
           <img src="avatar_hat.jpg" width="400" height="200">
         </div>
-
         <div class="">
           <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
       </div>
-
+    </section>
       <div class="heading">
         <p>Im really good at:</p>
       </div>
@@ -82,7 +83,7 @@
         </div>
       </div>
     </div>
-  </section>
+  <!-- </section> -->
 
    <section class="2">
     <div class="navbar">
@@ -111,7 +112,7 @@
           </div>
       </div>
 
-       <section class="picture">
+       <section id="picture">
         <div class="fourthpage">
           <div class="image">
             <p>MY WORK</p><br>
@@ -159,7 +160,7 @@
           <p>CONTACT</p>
         </div>
     </div>
-     <div class="work">
+     <div id="work">
       <h2>WHERE I WORK</h2><br>
       <p>I'd love your feedback!</p>
      </div>
@@ -168,28 +169,40 @@
     <div class="mapimg">
       <img src="map.jpg" width="300" height="150" >
     </div>
+    <div class="icon">
+     <p><i class="fa-solid fa-location-dot"></i></p>
+     <p><i class="fa-solid fa-phone"></i></p>
+     <p><i class="fa-solid fa-envelope"></i></p>
+    </div>
     <div class="info">
       <p> Chicago, US</p>
       <p>Phone: +00 151515</p>
-      <p> Email: mail@mail.com</p><br>
-      <p>Swing by for a cup of , or leave me a note:</p>
+      <p>Email: mail@mail.com</p><br>
+      <p>Swing by for a cup of , <i class="fa-solid fa-mug-hot"></i> or leave me a note:</p>
     </div>
   </div>
-  
-  <div class="form">
-    <input type="text" placeholder="Name">
-    <input type="text" placeholder="Email">
-</div>
-<div class="msg">
-  <input type="text" placeholder="Message">
-</div>
+
+  <form action="http://httpbin.org/get"method="get">
+   <div class="form">
+    <input type="text" placeholder="Name" autocomplete="on" required autofocus>
+    <input type="text" placeholder="Email" autocomplete="on" required autofocus>
+   </div>
+  <div class="msg">
+   <input type="text" placeholder="Message" autocomplete="on" required autofocus>
+  </div>
 
 <div class="snd">
-  <button>SEND MESSAGE</button>
+  <button><i class="fa-solid fa-paper-plane"></i>SEND MESSAGE</button>
 </div>
+</form>
 
 <div class="seventhpage">
-  <button class="gray">^ To the top</button><br>
+  <form action="http://127.0.0.1:5500/index.html#link1">
+  <button class="gray"><i class="fa-solid fa-arrow-up"></i>To the top</button><br>
+ </form>
+  <div class="socials">
+  <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-whatsapp"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-snapchat"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-pinterest"></i><i class="fa-brands fa-linkedin"></i><br>
+  </div>
   <P> powered by <span class="green">w3.css</span></P>
 </div>
 

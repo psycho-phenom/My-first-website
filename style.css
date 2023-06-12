@@ -73,6 +73,9 @@
 .secondpg1 .bio{
     padding: 0 15%;
 }
+.secondpage2{
+    display: flex;
+}
 
 .secondpage .secondpg2{
     margin-top: 5rem;
@@ -265,7 +268,7 @@ font-weight: 100;
     letter-spacing: 10px;
     padding-top: 9rem;
    }
-.work{
+#work{
     margin-top: 10vh;
     text-align: center;
 }
@@ -281,18 +284,17 @@ font-weight: 100;
     margin-left: 40vh;
 }
 .info{
-    margin-left: 7vh;
     padding: 20px;
 }
 .form{
   margin-left: 90vh;
 }
 .form input{
-    padding: 15px 20px;
-    /* text-align: left; */
+    padding: 15px 40px;
 }
 .msg{
     margin-left: 90vh;
+    margin-right: 30vh;
 }
 .msg input{
     margin-top: 1rem;
@@ -300,12 +302,14 @@ font-weight: 100;
     width: 90.2%;
 }
 .snd{
-    margin-left: 163vh;
-  
+    margin-left: 140vh;
+}
+.snd button:hover{
+    color: gray;
 }
 .snd button{
     margin-top: 1rem;
-    padding: 10px 60px;
+    padding: 10px 30px;
     background-color: black;
     cursor: pointer;
     margin-bottom: 170px;
@@ -331,4 +335,15 @@ font-weight: 100;
 }
 .green:hover{
     color: rgb(110, 160, 110);
+}
+.icon{
+    margin-top: 4vh;
+    margin-left: 7vh
+}
+
+
+.socials{
+    margin-top: 11vh;
+    margin-left: 72vh;
+    padding-bottom: 20px;
 }
